@@ -1,0 +1,914 @@
+﻿Log file open, 09/01/17 19:41:54
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Fantasma
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2065434866) SRandInit(-2065434865).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.168836
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.01-09.41.54:993][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.01-09.41.54:993][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.01-09.41.55:004][  0]LogInit: Computer: DESKTOP-1EALEVS
+[2017.09.01-09.41.55:004][  0]LogInit: User: Heath
+[2017.09.01-09.41.55:004][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.01-09.41.55:004][  0]LogInit: High frequency timer resolution =3.312637 MHz
+[2017.09.01-09.41.55:004][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.01-09.41.55:004][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.01-09.41.55:004][  0]LogMemory: Process Physical Memory: 277.91 MB used, 277.91 MB peak
+[2017.09.01-09.41.55:004][  0]LogMemory: Process Virtual Memory: 274.21 MB used, 274.21 MB peak
+[2017.09.01-09.41.55:004][  0]LogMemory: Physical Memory: 8552.89 MB used,  7729.37 MB free, 16282.26 MB total
+[2017.09.01-09.41.55:004][  0]LogMemory: Virtual Memory: 667.70 MB used,  7729.37 MB free, 134217728.00 MB total
+[2017.09.01-09.41.55:122][  0]LogInit: Using OS detected language (en-GB).
+[2017.09.01-09.41.55:122][  0]LogInit: Using OS detected locale (en-AU).
+[2017.09.01-09.41.55:124][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.09.01-09.41.55:768][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.01-09.41.55:778][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.09.01-09.41.55:778][  0]LogD3D11RHI:       3053/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.09.01-09.41.55:782][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.09.01-09.41.55:782][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.01-09.41.55:783][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.01-09.41.55:783][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.01-09.41.55:783][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.01-09.41.55:788][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.01-09.41.55:788][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.01-09.41.55:788][  0]LogWindows: EnumDisplayDevices:
+[2017.09.01-09.41.55:788][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.09.01-09.41.55:788][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.09.01-09.41.55:788][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.01-09.41.55:789][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.01-09.41.55:789][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.01-09.41.55:789][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.09.01-09.41.55:789][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.01-09.41.55:789][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.01-09.41.55:789][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.09.01-09.41.55:789][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.09.01-09.41.55:789][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:22.19.162.4, unified:22.19.162.4)
+[2017.09.01-09.41.55:789][  0]LogD3D11RHI:      Driver Date: 4-24-2017
+[2017.09.01-09.41.55:789][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.01-09.41.55:846][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.01-09.41.55:856][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.09.01-09.41.55:857][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Intermediate/Shaders/WorkingDirectory/13076/).
+[2017.09.01-09.41.55:857][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Heath/AppData/Local/Temp/UnrealShaderWorkingDir/2C0D11174DD1E722CF37D89F8F465BCD/'.
+[2017.09.01-09.41.55:857][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.01-09.41.56:732][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.01-09.41.56:773][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.01-09.41.56:818][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.01-09.41.56:860][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.01-09.41.56:906][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.01-09.41.56:954][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.01-09.41.56:997][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.01-09.41.57:047][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.01-09.41.57:085][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.01-09.41.57:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.01-09.41.57:223][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.01-09.41.57:268][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.01-09.41.57:312][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.01-09.41.57:353][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.01-09.41.57:392][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.01-09.41.57:499][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.01-09.41.57:499][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.01-09.41.57:529][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.01-09.41.57:612][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.01-09.41.57:639][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.01-09.41.57:687][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.01-09.41.57:732][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.01-09.41.57:780][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.01-09.41.57:827][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.01-09.41.57:827][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.01-09.41.58:282][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.01-09.41.58:377][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Heath/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.01-09.41.58:377][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Heath/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.01-09.41.58:378][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.01-09.41.58:378][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.01-09.41.58:378][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.01-09.41.58:378][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.01-09.41.58:395][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.01-09.41.58:407][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Heath/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.01-09.41.58:418][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.01-09.41.58:419][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.01-09.41.58:419][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.01-09.41.58:419][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.01-09.41.58:708][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2017.09.01-09.41.58:812][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.01-09.41.59:146][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.01-09.41.59:178][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.01-09.41.59:178][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.01-09.41.59:178][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.01-09.41.59:178][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.01-09.41.59:179][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.01-09.41.59:180][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.01-09.41.59:616][  0]LogNetVersion: Fantasma , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3867998623)
+[2017.09.01-09.41.59:800][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.034917 seconds
+[2017.09.01-09.41.59:806][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.01-09.41.59:806][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.01-09.41.59:806][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.01-09.41.59:855][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.01-09.42.02:347][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.01-09.42.02:393][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.01-09.42.02:979][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.01-09.42.03:344][  0]SourceControl: Source control is disabled
+[2017.09.01-09.42.03:344][  0]SourceControl: Source control is disabled
+[2017.09.01-09.42.03:387][  0]SourceControl: Source control is disabled
+[2017.09.01-09.42.03:432][  0]SourceControl: Source control is disabled
+[2017.09.01-09.42.04:007][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.01-09.42.04:226][  0]LogOcInput: OculusInput pre-init called
+[2017.09.01-09.42.04:468][  0]LogEngine: Initializing Engine...
+[2017.09.01-09.42.04:470][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.01-09.42.04:694][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.01-09.42.04:694][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.01-09.42.04:799][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.01-09.42.04:805][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.42.04:816][  0]LogInit: FAudioDevice initialized.
+[2017.09.01-09.42.04:912][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/Heath/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.01-09.42.04:929][  0]LogInit: Texture streaming: Enabled
+[2017.09.01-09.42.05:025][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.01-09.42.05:213][  0]LogInit: Transaction tracking system initialized
+[2017.09.01-09.42.05:475][  0]BlueprintLog: New page: Editor Load
+[2017.09.01-09.42.06:292][  0]LocalizationService: Localization service is disabled
+[2017.09.01-09.42.06:911][  0]LogConsoleResponse: Display: 
+[2017.09.01-09.42.07:100][  0]LogFileCache: Scanning file cache for directory 'E:/!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/' took 0.01s
+[2017.09.01-09.42.07:100][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.01-09.42.07:100][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.01-09.42.07:100][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.01-09.42.08:060][  0]SourceControl: Source control is disabled
+[2017.09.01-09.42.08:060][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.01-09.42.08:060][  0]LightingResults: New page: Lighting Build
+[2017.09.01-09.42.08:095][  0]MapCheck: New page: Map Check
+[2017.09.01-09.42.08:095][  0]LightingResults: New page: Lighting Build
+[2017.09.01-09.42.08:268][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.42.08:274][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.01-09.42.08:285][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.01-09.42.08:326][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.289ms to complete.
+[2017.09.01-09.42.08:326][  0]LogFileHelpers: Loading map 'Template_Default' took 0.266
+[2017.09.01-09.42.08:384][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.01-09.42.08:463][  0]LogCollectionManager: Loaded 0 collections in 0.001843 seconds
+[2017.09.01-09.42.08:536][  0]LogFileCache: Scanning file cache for directory 'E:/!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/Collections/' took 0.01s
+[2017.09.01-09.42.08:536][  0]LogFileCache: Scanning file cache for directory 'E:/!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Developers/Heath/Collections/' took 0.01s
+[2017.09.01-09.42.08:536][  0]LogFileCache: Scanning file cache for directory 'E:/!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Collections/' took 0.01s
+[2017.09.01-09.42.08:536][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.01-09.42.08:545][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2386 classes and 500 folders.
+[2017.09.01-09.42.08:597][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.01-09.42.08:641][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.01-09.42.08:678][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.01-09.42.08:741][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.01-09.42.08:743][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.01-09.42.08:748][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.01-09.42.08:843][  0]LogRenderer: Reallocating scene render targets to support 1208x632 Format 10 NumSamples 1 (Frame:1).
+[2017.09.01-09.42.09:005][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.01-09.42.09:006][  0]LogLoad: (Engine Initialization) Total time: 15.51 seconds
+[2017.09.01-09.42.09:006][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.01-09.42.09:006][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.01-09.42.09:006][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.01-09.42.09:039][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.01-09.42.21:717][239]LogAssetRegistry: Asset discovery search completed in 23.0299 seconds
+[2017.09.01-09.42.21:719][239]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.01-09.42.21:719][239]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2017.09.01-09.42.22:701][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.01-09.42.27:134][863]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.42.27:150][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.42.27:150][863]PIE: New page: PIE session: Untitled_1 (2 Sep 2017 5:42:27 am)
+[2017.09.01-09.42.27:150][863]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.01-09.42.27:152][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001471s)
+[2017.09.01-09.42.27:152][863]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.42.27:153][863]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2017.09.01-09.42.27:153][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002604s)
+[2017.09.01-09.42.27:164][863]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.42.27:170][863]LogInit: FAudioDevice initialized.
+[2017.09.01-09.42.27:209][863]LogLoad: Game class is 'GameModeBase'
+[2017.09.01-09.42.27:211][863]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.01-19.42.27
+[2017.09.01-09.42.27:211][863]LogWorld: Bringing up level for play took: 0.000962
+[2017.09.01-09.42.27:245][863]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.09.01-09.42.27:246][863]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.191
+[2017.09.01-09.43.18:497][ 29]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.01-09.43.21:414][185]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.43.21:426][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.43.21:427][185]PIE: New page: PIE session: Untitled_1 (2 Sep 2017 5:43:21 am)
+[2017.09.01-09.43.21:427][185]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.01-09.43.21:428][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001662s)
+[2017.09.01-09.43.21:429][185]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.43.21:429][185]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2017.09.01-09.43.21:430][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002817s)
+[2017.09.01-09.43.21:440][185]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.43.21:447][185]LogInit: FAudioDevice initialized.
+[2017.09.01-09.43.21:485][185]LogLoad: Game class is 'GameModeBase'
+[2017.09.01-09.43.21:487][185]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.01-19.43.21
+[2017.09.01-09.43.21:487][185]LogWorld: Bringing up level for play took: 0.000888
+[2017.09.01-09.43.21:488][185]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.049
+[2017.09.01-09.44.12:698][979]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.01-09.44.19:700][465]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.09.01-09.44.20:585][465]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.01-09.44.22:622][597]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:134).
+[2017.09.01-09.44.23:631][713]LogSlate: Took 0.020373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.01-09.44.28:838][314]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.01-09.44.30:805][524]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.01-09.44.31:015][524]LogBlueprint: Warning: [Compiler FPSTPC] InputAction Event references unknown Action 'Fire' for  InputAction Fire
+[2017.09.01-09.44.31:016][524]LogBlueprint: Warning: [Compiler FPSTPC] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.09.01-09.44.31:016][524]LogBlueprint: Warning: [Compiler FPSTPC] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.09.01-09.44.31:016][524]LogBlueprint: Warning: [Compiler FPSTPC] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2017.09.01-09.44.31:017][524]LogBlueprint: Warning: [Compiler FPSTPC] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2017.09.01-09.44.31:017][524]LogBlueprint: Warning: [Compiler FPSTPC] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.09.01-09.44.31:017][524]LogBlueprint: Warning: [Compiler FPSTPC] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.09.01-09.44.31:017][524]LogBlueprint: Warning: [Compiler FPSTPC] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2017.09.01-09.44.31:023][524]LogBlueprint: Warning: [Compiler FPSTPC] [0157.52] Compile of FPSTPC successful, but with 8 Warning(s) [in 15 ms] (/Game/ThirdPersonBP/Blueprints/FPSTPC.FPSTPC)
+[2017.09.01-09.44.33:114][752]BlueprintLog: New page: Compile BaseGameMode
+[2017.09.01-09.44.34:433][881]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.44.34:451][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.44.34:452][881]PIE: New page: PIE session: Untitled_1 (2 Sep 2017 5:44:34 am)
+[2017.09.01-09.44.34:452][881]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.01-09.44.34:454][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001851s)
+[2017.09.01-09.44.34:454][881]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.44.34:455][881]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2017.09.01-09.44.34:455][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003232s)
+[2017.09.01-09.44.34:473][881]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.44.34:480][881]LogInit: FAudioDevice initialized.
+[2017.09.01-09.44.34:526][881]LogLoad: Game class is 'GameModeBase'
+[2017.09.01-09.44.34:528][881]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.01-19.44.34
+[2017.09.01-09.44.34:529][881]LogWorld: Bringing up level for play took: 0.001061
+[2017.09.01-09.44.34:531][881]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.911
+[2017.09.01-09.44.34:543][881]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.09.01-09.44.37:288][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BaseGameMode" FILE="../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Levels/BaseGameMode.uasset" SILENT=true
+[2017.09.01-09.44.37:322][190]LogSavePackage: Save=32.26ms
+[2017.09.01-09.44.37:322][190]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/BaseGameModeE873CDAC4F98746C5EC655B626C57E64.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Levels/BaseGameMode.uasset'
+[2017.09.01-09.44.37:327][190]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Levels/BaseGameMode.uasset
+[2017.09.01-09.44.52:995][ 10]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.01-09.44.56:815][443]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.01-09.45.06:132][468]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.45.06:140][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.45.06:141][468]PIE: New page: PIE session: Untitled_1 (2 Sep 2017 5:45:06 am)
+[2017.09.01-09.45.06:141][468]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.01-09.45.06:142][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001339s)
+[2017.09.01-09.45.06:143][468]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.45.06:143][468]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2017.09.01-09.45.06:143][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002501s)
+[2017.09.01-09.45.06:163][468]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.45.06:169][468]LogInit: FAudioDevice initialized.
+[2017.09.01-09.45.06:202][468]LogLoad: Game class is 'BaseGameMode_C'
+[2017.09.01-09.45.06:204][468]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.01-19.45.06
+[2017.09.01-09.45.06:204][468]LogWorld: Bringing up level for play took: 0.001000
+[2017.09.01-09.45.06:207][468]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.763
+[2017.09.01-09.45.31:965][141]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Fantasma
+[2017.09.01-09.45.31:965][141]LogTemp: CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.01-09.45.31:965][141]LogTemp: Initial Dir: E:\Epic Games\UE_4.17
+[2017.09.01-09.45.31:965][141]LogTemp: Env CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.01-09.45.31:965][141]LogTemp: BranchPath = DESKTOP-1EALEVS/E/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-1EALEVS/E/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.01-09.45.31:965][141]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Heath\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.01-09.51.13:058][ 71]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.51.13:072][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.51.13:072][ 71]PIE: New page: PIE session: Untitled_1 (2 Sep 2017 5:51:13 am)
+[2017.09.01-09.51.13:072][ 71]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.01-09.51.13:074][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001480s)
+[2017.09.01-09.51.13:074][ 71]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.51.13:075][ 71]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2017.09.01-09.51.13:075][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002723s)
+[2017.09.01-09.51.13:101][ 71]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.51.13:110][ 71]LogInit: FAudioDevice initialized.
+[2017.09.01-09.51.13:189][ 71]LogLoad: Game class is 'BaseGameMode_C'
+[2017.09.01-09.51.13:191][ 71]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.01-19.51.13
+[2017.09.01-09.51.13:191][ 71]LogWorld: Bringing up level for play took: 0.001024
+[2017.09.01-09.51.13:193][ 71]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.267
+[2017.09.01-09.51.18:379][563]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Fantasma
+[2017.09.01-09.51.18:379][563]LogTemp: CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.01-09.51.18:379][563]LogTemp: Initial Dir: E:\Epic Games\UE_4.17
+[2017.09.01-09.51.18:379][563]LogTemp: Env CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.01-09.51.18:379][563]LogTemp: BranchPath = DESKTOP-1EALEVS/E/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-1EALEVS/E/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.01-09.51.18:396][563]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Heath\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.01-09.51.34:588][411]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.51.34:600][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.51.34:600][411]PIE: New page: PIE session: Untitled_1 (2 Sep 2017 5:51:34 am)
+[2017.09.01-09.51.34:600][411]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.01-09.51.34:602][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001560s)
+[2017.09.01-09.51.34:602][411]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.51.34:603][411]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2017.09.01-09.51.34:603][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002588s)
+[2017.09.01-09.51.34:620][411]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.51.34:627][411]LogInit: FAudioDevice initialized.
+[2017.09.01-09.51.34:659][411]LogLoad: Game class is 'BaseGameMode_C'
+[2017.09.01-09.51.34:660][411]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.01-19.51.34
+[2017.09.01-09.51.34:661][411]LogWorld: Bringing up level for play took: 0.001035
+[2017.09.01-09.51.34:663][411]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.798
+[2017.09.01-09.51.46:413][693]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Fantasma
+[2017.09.01-09.51.46:413][693]LogTemp: CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.01-09.51.46:413][693]LogTemp: Initial Dir: E:\Epic Games\UE_4.17
+[2017.09.01-09.51.46:413][693]LogTemp: Env CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.01-09.51.46:422][694]LogTemp: BranchPath = DESKTOP-1EALEVS/E/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-1EALEVS/E/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.01-09.51.46:431][695]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Heath\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.FirstPersonProjectile_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.SKEL_FirstPersonProjectile_C:ReceiveHit' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.SKEL_FirstPersonProjectile_C:CollisionComponent' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.SKEL_FirstPersonProjectile_C:Sphere' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.SKEL_FirstPersonProjectile_C:Projectile' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.SKEL_FirstPersonProjectile_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.SKEL_FirstPersonProjectile_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.FirstPersonProjectile_C:CollisionComponent' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.FirstPersonProjectile_C:Sphere' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.FirstPersonProjectile_C:Projectile' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.FirstPersonProjectile_C:ReceiveHit' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.FirstPersonProjectile_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:020][632]LogMetaData: Removing '/Game/FirstPerson/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile' ref from Metadata '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile.PackageMetaData'
+[2017.09.01-09.52.26:052][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FirstPersonProjectile" FILE="../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/FirstPersonProjectile.uasset" SILENT=true
+[2017.09.01-09.52.26:117][632]LogSavePackage: Save=63.47ms
+[2017.09.01-09.52.26:117][632]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/FirstPersonProjectileC22F79024DE47FDECDC9CABE42B4EA95.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/FirstPersonProjectile.uasset'
+[2017.09.01-09.52.26:118][632]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/FirstPersonProjectile.uasset
+[2017.09.01-09.52.26:269][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/FPSTPC" FILE="../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/ThirdPersonBP/Blueprints/FPSTPC.uasset" SILENT=true
+[2017.09.01-09.52.26:408][632]LogSavePackage: Save=133.29ms
+[2017.09.01-09.52.26:408][632]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/FPSTPC71D6966C4D0321A71707909CEA601CD5.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/ThirdPersonBP/Blueprints/FPSTPC.uasset'
+[2017.09.01-09.52.26:410][632]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/ThirdPersonBP/Blueprints/FPSTPC.uasset
+[2017.09.01-09.52.32:739][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:739][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_4.Transition.AnimGraphNode_TransitionResult_26' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:739][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_6.Transition.AnimGraphNode_TransitionResult_37' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_2.Transition.AnimGraphNode_TransitionResult_15' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:AnimGraph.AnimGraphNode_StateMachine_1.Default.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_48' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.SKEL_ThirdPerson_AnimBP_C' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:Speed' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:IsInAir?' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:740][361]LogMetaData: Removing '/Game/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP' ref from Metadata '/Game/Mannequin/Animations/ThirdPerson_AnimBP.PackageMetaData'
+[2017.09.01-09.52.32:860][361]LogSavePackage: Save=4.38ms
+[2017.09.01-09.52.32:860][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/UE4_Mannequin_Skeleton3E11B6CF4138AA19E578BBBBDDFEB8C6.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2017.09.01-09.52.32:862][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.09.01-09.52.32:906][361]LogSavePackage: Save=13.56ms
+[2017.09.01-09.52.32:906][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ThirdPerson_Jump8628294C4D8617DF7D303EA6ED76792E.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPerson_Jump.uasset'
+[2017.09.01-09.52.32:908][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPerson_Jump.uasset
+[2017.09.01-09.52.32:940][361]LogSavePackage: Save=13.27ms
+[2017.09.01-09.52.32:940][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ThirdPersonJump_Loop007138634B38D89C87228BA42E757A83.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonJump_Loop.uasset'
+[2017.09.01-09.52.32:941][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonJump_Loop.uasset
+[2017.09.01-09.52.32:971][361]LogSavePackage: Save=12.80ms
+[2017.09.01-09.52.32:971][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ThirdPersonJump_StartCB9150B94B94C0533A25D6A274254731.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonJump_Start.uasset'
+[2017.09.01-09.52.32:973][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonJump_Start.uasset
+[2017.09.01-09.52.33:005][361]LogSavePackage: Save=13.57ms
+[2017.09.01-09.52.33:006][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ThirdPersonIdleD831E05F43E810D3267CA4A5C61BCFB1.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonIdle.uasset'
+[2017.09.01-09.52.33:007][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonIdle.uasset
+[2017.09.01-09.52.33:039][361]LogSavePackage: Save=13.08ms
+[2017.09.01-09.52.33:039][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ThirdPersonRun2ADD31C04321D8E17F587BADE44C61D4.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonRun.uasset'
+[2017.09.01-09.52.33:040][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonRun.uasset
+[2017.09.01-09.52.33:073][361]LogSavePackage: Save=13.55ms
+[2017.09.01-09.52.33:073][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ThirdPersonWalk899910964FD54CCC708FE1B7823D617E.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonWalk.uasset'
+[2017.09.01-09.52.33:074][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPersonWalk.uasset
+[2017.09.01-09.52.33:112][361]LogSavePackage: Save=12.13ms
+[2017.09.01-09.52.33:112][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ThirdPerson_IdleRun_2D2BFA53CB4C54149EC22F5CB2322F11D4.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset'
+[2017.09.01-09.52.33:114][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset
+[2017.09.01-09.52.33:227][361]LogSavePackage: Save=89.52ms
+[2017.09.01-09.52.33:227][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ThirdPerson_AnimBP019ABD4649138C418D5EDBA9D6652E56.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2017.09.01-09.52.33:229][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2017.09.01-09.52.33:291][361]LogSavePackage: Save=14.48ms
+[2017.09.01-09.52.33:291][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/T_ML_Rubber_Blue_01_D499A5A3E4E89DA3EE4BC309DDB177C82.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset'
+[2017.09.01-09.52.33:293][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.09.01-09.52.33:321][361]LogSavePackage: Save=11.26ms
+[2017.09.01-09.52.33:321][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/T_ML_Rubber_Blue_01_N8BED3B73450BBD738E4C46B4A121187D.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset'
+[2017.09.01-09.52.33:323][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.09.01-09.52.33:335][361]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.09.01-09.52.33:450][361]LogSavePackage: Save=13.93ms
+[2017.09.01-09.52.33:450][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ML_GlossyBlack_Latex_UE46873E6084ACDC9B8AD4086A12CB2CABD.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset'
+[2017.09.01-09.52.33:467][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.09.01-09.52.33:473][361]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.09.01-09.52.33:525][361]LogSavePackage: Save=12.18ms
+[2017.09.01-09.52.33:525][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ML_Plastic_Shiny_BeigeA24FF9EB49C196F5330D97AF85EFC7A9.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset'
+[2017.09.01-09.52.33:527][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.09.01-09.52.33:552][361]LogSavePackage: Save=10.40ms
+[2017.09.01-09.52.33:552][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/UE4_LOGO_CARDA039CC3A46D7237B70DAC6912D8B43D6.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset'
+[2017.09.01-09.52.33:553][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset
+[2017.09.01-09.52.33:562][361]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.09.01-09.52.33:615][361]LogSavePackage: Save=13.25ms
+[2017.09.01-09.52.33:615][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ML_Plastic_Shiny_Beige_LOGO8D69AED74D6E9E526954F6AC376AD4E1.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset'
+[2017.09.01-09.52.33:617][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.09.01-09.52.33:645][361]LogSavePackage: Save=14.20ms
+[2017.09.01-09.52.33:645][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/T_ML_Aluminum018C61CAE647CFDAAB872719BB3C2E168F.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset'
+[2017.09.01-09.52.33:647][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.09.01-09.52.33:670][361]LogSavePackage: Save=11.08ms
+[2017.09.01-09.52.33:670][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/T_ML_Aluminum01_N3BFCFC46407B6D858AB1D3AA9940B8AB.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset'
+[2017.09.01-09.52.33:671][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.09.01-09.52.33:680][361]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.09.01-09.52.33:733][361]LogSavePackage: Save=13.69ms
+[2017.09.01-09.52.33:733][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/ML_SoftMetal_UE43956D91E4A109DE9471541852A54DC30.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset'
+[2017.09.01-09.52.33:735][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.09.01-09.52.33:812][361]LogSavePackage: Save=65.37ms
+[2017.09.01-09.52.33:812][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/UE4_Mannequin__normals05C8AD4246BEBBE8F06801AAEB8507A0.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset'
+[2017.09.01-09.52.33:814][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset
+[2017.09.01-09.52.33:843][361]LogSavePackage: Save=15.16ms
+[2017.09.01-09.52.33:843][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/UE4_Mannequin_MAT_MASKADCFCF0D347C94069ED4CCF9236DB2499.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset'
+[2017.09.01-09.52.33:844][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.09.01-09.52.33:909][361]LogSavePackage: Save=19.54ms
+[2017.09.01-09.52.33:909][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/M_UE4Man_Body9416F3CA40C3C49D87838E895A690DC2.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/M_UE4Man_Body.uasset'
+[2017.09.01-09.52.33:911][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/M_UE4Man_Body.uasset
+[2017.09.01-09.52.33:935][361]LogSavePackage: Save=12.81ms
+[2017.09.01-09.52.33:935][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/UE4Man_Logo_N99DB7933488D93E5BCD4AA8A53509715.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Textures/UE4Man_Logo_N.uasset'
+[2017.09.01-09.52.33:937][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Textures/UE4Man_Logo_N.uasset
+[2017.09.01-09.52.33:973][361]LogSavePackage: Save=13.26ms
+[2017.09.01-09.52.33:973][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/M_UE4Man_ChestLogoE61B8CAE44ADE694C6C535B8CB212786.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset'
+[2017.09.01-09.52.33:974][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset
+[2017.09.01-09.52.33:990][361]LogSavePackage: Save=11.74ms
+[2017.09.01-09.52.33:990][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/SK_Mannequin_PhysicsAsset8AA15EEF499E3C93540D6FB869BE2C66.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset'
+[2017.09.01-09.52.33:992][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset
+[2017.09.01-09.52.34:078][361]LogSavePackage: Save=55.02ms
+[2017.09.01-09.52.34:078][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/SK_MannequinD19BA20B41BE9F2A53D532A3341FB492.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Mesh/SK_Mannequin.uasset'
+[2017.09.01-09.52.34:080][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/Mannequin/Character/Mesh/SK_Mannequin.uasset
+[2017.09.01-09.52.35:836][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/FPSTPC" FILE="../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/ThirdPersonBP/Blueprints/FPSTPC.uasset" SILENT=true
+[2017.09.01-09.52.35:977][361]LogSavePackage: Save=139.28ms
+[2017.09.01-09.52.35:977][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/FPSTPC9F1FD8694D3F166702150D8218F9A0CD.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/ThirdPersonBP/Blueprints/FPSTPC.uasset'
+[2017.09.01-09.52.35:979][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/ThirdPersonBP/Blueprints/FPSTPC.uasset
+[2017.09.01-09.52.35:981][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/FPSTPC" FILE="../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/ThirdPersonBP/Blueprints/FPSTPC.uasset" SILENT=true
+[2017.09.01-09.52.36:113][361]LogSavePackage: Save=129.56ms
+[2017.09.01-09.52.36:113][361]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/FPSTPCE095B48B4C6C937FC72461837956F093.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/ThirdPersonBP/Blueprints/FPSTPC.uasset'
+[2017.09.01-09.52.36:113][361]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/ThirdPersonBP/Blueprints/FPSTPC.uasset
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC:ThirdPersonMoveRightDir.K2Node_Tunnel_15' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC:ThirdPersonMoveRightDir.K2Node_Tunnel_14' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC:ThirdPersonMoveForwardDir.K2Node_Tunnel_11' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC:ThirdPersonMoveForwardDir.K2Node_Tunnel_10' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC:FirstPersonMoveRightDir.K2Node_Tunnel_7' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC:FirstPersonMoveRightDir.K2Node_Tunnel_6' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC:FirstPersonMoveForwardDir.K2Node_Tunnel_3' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC:FirstPersonMoveForwardDir.K2Node_Tunnel_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC:SwitchCamera.K2Node_FunctionEntry_491' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:GunOffset' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:InFirstPerson' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:FirstPersonCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:Mesh2P' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:FP_Gun' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:Sphere' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.SKEL_FPSTPC_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:GunOffset' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:InFirstPerson' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:BaseLookUpRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:BaseTurnRate' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:CameraBoom' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:FollowCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:FirstPersonCamera' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:Mesh2P' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:FP_Gun' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:932][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:Sphere' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:933][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:933][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:ExecuteUbergraph_FPSTPC' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:933][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:933][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:933][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:933][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:933][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:933][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:933][ 33]LogMetaData: Removing '/Game/FirstPerson/FPSTPC.FPSTPC_C:InpTchEvt_K2Node_InputTouchEvent_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/FPSTPC.PackageMetaData'
+[2017.09.01-09.52.42:963][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPSTPC" FILE="../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/FPSTPC.uasset" SILENT=true
+[2017.09.01-09.52.43:108][ 33]LogSavePackage: Save=143.75ms
+[2017.09.01-09.52.43:108][ 33]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/FPSTPC5D5C9D154AC2412524008DBE43A188C6.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/FPSTPC.uasset'
+[2017.09.01-09.52.43:110][ 33]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/FPSTPC.uasset
+[2017.09.01-09.52.43:254][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BaseGameMode" FILE="../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Levels/BaseGameMode.uasset" SILENT=true
+[2017.09.01-09.52.43:273][ 33]LogSavePackage: Save=12.92ms
+[2017.09.01-09.52.43:273][ 33]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/BaseGameModeD6BA97E648959D8E56CF9F89F18D35EC.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Levels/BaseGameMode.uasset'
+[2017.09.01-09.52.43:275][ 33]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Levels/BaseGameMode.uasset
+[2017.09.01-09.53.05:089][227]LogSlate: Took 0.011251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.01-09.53.25:867][523]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.53.25:886][523]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.09.01-09.53.25:906][523]LogPlayLevel: [PlayLevel] Compiling FPSTPC before play...
+[2017.09.01-09.53.25:930][523]LogBlueprint: Warning: [Compiler FPSTPC] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.09.01-09.53.25:930][523]LogBlueprint: Warning: [Compiler FPSTPC] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.09.01-09.53.25:942][523]LogBlueprint: Warning: [Compiler FPSTPC] [0692.42] Compile of FPSTPC successful, but with 2 Warning(s) [in 36 ms] (/Game/FirstPerson/FPSTPC.FPSTPC)
+[2017.09.01-09.53.26:106][523]LogPlayLevel: PlayLevel: Blueprint regeneration took 219 ms (1 blueprints)
+[2017.09.01-09.53.26:106][523]PIE: New page: PIE session: Untitled_1 (2 Sep 2017 5:53:26 am)
+[2017.09.01-09.53.26:106][523]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.01-09.53.26:107][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001386s)
+[2017.09.01-09.53.26:108][523]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.53.26:108][523]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2017.09.01-09.53.26:108][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002330s)
+[2017.09.01-09.53.26:127][523]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.53.26:134][523]LogInit: FAudioDevice initialized.
+[2017.09.01-09.53.26:177][523]LogLoad: Game class is 'BaseGameMode_C'
+[2017.09.01-09.53.26:178][523]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.01-19.53.26
+[2017.09.01-09.53.26:178][523]LogWorld: Bringing up level for play took: 0.000892
+[2017.09.01-09.53.26:185][523]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.719
+[2017.09.01-09.55.01:978][632]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.55.01:992][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.55.01:992][632]PIE: New page: PIE session: Untitled_1 (2 Sep 2017 5:55:01 am)
+[2017.09.01-09.55.01:993][632]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.01-09.55.01:994][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001346s)
+[2017.09.01-09.55.01:994][632]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.55.01:995][632]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2017.09.01-09.55.01:995][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002224s)
+[2017.09.01-09.55.02:015][632]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.55.02:021][632]LogInit: FAudioDevice initialized.
+[2017.09.01-09.55.02:050][632]LogLoad: Game class is 'BaseGameMode_C'
+[2017.09.01-09.55.02:052][632]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.01-19.55.02
+[2017.09.01-09.55.02:052][632]LogWorld: Bringing up level for play took: 0.000858
+[2017.09.01-09.55.02:054][632]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.584
+[2017.09.01-09.55.17:944][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/FPSTPC" FILE="../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/FPSTPC.uasset" SILENT=true
+[2017.09.01-09.55.18:078][494]LogSavePackage: Save=131.75ms
+[2017.09.01-09.55.18:078][494]LogSavePackage: Moving '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/FPSTPCE25FF9D0457613F89482EFB8F6B07A30.tmp' to '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/FPSTPC.uasset'
+[2017.09.01-09.55.18:080][494]LogSavePackage: Display: Finished SavePackage ../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/FirstPerson/FPSTPC.uasset
+[2017.09.01-09.59.00:899][622]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.01-09.59.00:915][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.01-09.59.00:916][622]PIE: New page: PIE session: Untitled_1 (2 Sep 2017 5:59:00 am)
+[2017.09.01-09.59.00:916][622]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.01-09.59.00:917][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001738s)
+[2017.09.01-09.59.00:918][622]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.01-09.59.00:918][622]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2017.09.01-09.59.00:919][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002846s)
+[2017.09.01-09.59.00:940][622]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.01-09.59.00:947][622]LogInit: FAudioDevice initialized.
+[2017.09.01-09.59.00:976][622]LogLoad: Game class is 'BaseGameMode_C'
+[2017.09.01-09.59.00:977][622]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.01-19.59.00
+[2017.09.01-09.59.00:978][622]LogWorld: Bringing up level for play took: 0.001111
+[2017.09.01-09.59.00:981][622]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.501
+[2017.09.01-10.46.50:200][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.01-10.46.50:258][229]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.01-10.46.50:504][230]Cmd: QUIT_EDITOR
+[2017.09.01-10.46.51:217][230]LogExit: Preparing to exit.
+[2017.09.01-10.46.52:269][230]LogDirectoryWatcher: A directory notification for 'E:/!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/' was aborted.
+[2017.09.01-10.46.52:392][230]LogExit: Editor shut down
+[2017.09.01-10.46.52:420][230]LogExit: Transaction tracking system shut down
+[2017.09.01-10.46.52:524][230]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.01-10.46.52:524][230]LogDirectoryWatcher: A directory notification for '../../../../../!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/' was aborted.
+[2017.09.01-10.46.52:524][230]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.01-10.46.52:524][230]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.01-10.46.52:524][230]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.01-10.46.52:659][230]LogExit: Object subsystem successfully closed.
+[2017.09.01-10.46.52:685][230]LogD3D11RHI: Shutdown
+[2017.09.01-10.46.52:685][230]LogD3D11RHI: CleanupD3DDevice
+[2017.09.01-10.46.52:761][230]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.01-10.46.52:803][230]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (538)
+[2017.09.01-10.46.52:803][230]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.09.01-10.46.52:803][230]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.09.01-10.46.52:803][230]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.09.01-10.46.52:803][230]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.01-10.46.52:803][230]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.01-10.46.52:803][230]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.01-10.46.52:804][230]LogDirectoryWatcher: A directory notification for 'E:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.01-10.46.52:810][230]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.01-10.46.52:810][230]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.01-10.46.52:810][230]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.01-10.46.52:810][230]LogDirectoryWatcher: A directory notification for 'E:/!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Collections/' was aborted.
+[2017.09.01-10.46.52:810][230]LogDirectoryWatcher: A directory notification for 'E:/!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Content/Developers/Heath/Collections/' was aborted.
+[2017.09.01-10.46.52:810][230]LogDirectoryWatcher: A directory notification for 'E:/!HARD DRIVE STORAGE/Projects/UE4/Fantasma/Saved/Collections/' was aborted.
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.01-10.46.52:811][230]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.01-10.46.52:812][230]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.01-10.46.52:812][230]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.01-10.46.52:812][230]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.01-10.46.52:812][230]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.01-10.46.52:812][230]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.01-10.46.52:812][230]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.01-10.46.52:812][230]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.01-10.46.53:194][230]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.01-10.46.53:194][230]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.01-10.46.53:194][230]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.01-10.46.53:194][230]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.01-10.46.53:194][230]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.01-10.46.53:194][230]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.01-10.46.53:194][230]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.01-10.46.53:194][230]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.01-10.46.53:194][230]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.01-10.46.53:195][230]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.01-10.46.53:196][230]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.01-10.46.53:196][230]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.01-10.46.53:196][230]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.01-10.46.53:258][230]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.01-10.46.53:258][230]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.01-10.46.53:258][230]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.01-10.46.53:258][230]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.01-10.46.53:258][230]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.01-10.46.53:259][230]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.01-10.46.53:259][230]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.01-10.46.53:259][230]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.01-10.46.53:259][230]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.01-10.46.53:259][230]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.01-10.46.53:266][230]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.01-10.46.53:267][230]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.01-10.46.53:267][230]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.01-10.46.53:267][230]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.01-10.46.53:268][230]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.01-10.46.53:346][230]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.01-10.46.53:347][230]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.01-10.46.53:348][230]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.01-10.46.53:348][230]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.01-10.46.53:348][230]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.01-10.46.53:348][230]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.01-10.46.53:349][230]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.01-10.46.53:349][230]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.01-10.46.53:349][230]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.01-10.46.53:350][230]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.01-10.46.53:350][230]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.01-10.46.53:350][230]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.01-10.46.53:350][230]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.01-10.46.53:350][230]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.01-10.46.53:350][230]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.01-10.46.53:350][230]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.01-10.46.53:350][230]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.01-10.46.53:451][230]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.01-10.46.53:551][230]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.01-10.46.53:551][230]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.01-10.46.53:552][230]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.01-10.46.53:552][230]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.01-10.46.53:552][230]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.01-10.46.53:552][230]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.01-10.46.53:555][230]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.01-10.46.53:556][230]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.01-10.46.53:557][230]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.01-10.46.53:558][230]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.01-10.46.53:564][230]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.01-10.46.53:565][230]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.01-10.46.53:565][230]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.01-10.46.53:565][230]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.01-10.46.53:571][230]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.01-10.46.53:631][230]LogDerivedDataCache: Shutdown
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.01-10.46.53:631][230]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.01-10.46.53:632][230]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.01-10.46.53:632][230]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.01-10.46.53:632][230]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.01-10.46.53:632][230]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.01-10.46.53:632][230]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.01-10.46.53:632][230]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.01-10.46.53:632][230]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.01-10.46.53:633][230]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.01-10.46.53:633][230]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.01-10.46.53:633][230]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.01-10.46.53:634][230]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF94B79DA-4C1A-4657-0E99-E88588DC9338%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.0-3573198%2B%2B%2BUE4%2BRelease-4.17&UserID=25d3d4ee4404b99abd9af6b95cc536e6%7Ca629a1f6d6714afda75f288112c648be%7Ccff41f6d-fd5a-43d8-b1cf-987c3f1d079f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.01-10.46.53:651][230]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.01-10.46.53:653][230]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.01-10.46.53:653][230]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.01-10.46.53:653][230]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.01-10.46.53:654][230]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.01-10.46.53:654][230]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.01-10.46.53:654][230]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.01-10.46.53:654][230]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.01-10.46.53:659][230]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.01-10.46.53:659][230]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.01-10.46.53:659][230]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.01-10.46.53:659][230]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.01-10.46.53:659][230]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.01-10.46.53:659][230]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.01-10.46.53:659][230]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.01-10.46.53:659][230]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.01-10.46.53:660][230]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.01-10.46.53:660][230]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.01-10.46.53:660][230]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.01-10.46.53:664][230]LogExit: Exiting.
+[2017.09.01-10.46.53:680][230]Log file closed, 09/01/17 20:46:53
